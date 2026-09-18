@@ -1,75 +1,109 @@
-# COD-SOFT Data Science Internship
+# CODSOFT Data Science Internship
 
-This repository contains the projects completed as part of my Data Science Internship.
+This repository contains the projects completed as part of my CODSOFT Data Science Internship.
 
-## Projects
+## Completed Tasks
 
-### 1. Iris Flower Classification
+### Task 1 - Titanic Survival Prediction
 
-A machine learning classification project that predicts the species of an Iris flower using its physical measurements.
+A machine learning project that predicts whether a passenger survived the Titanic disaster.
 
-**Technologies:**
+**Technologies Used:**
 - Python
 - Pandas
-- Scikit-learn
 - Matplotlib
 - Seaborn
-
-**Models Used:**
+- Scikit-learn
 - Logistic Regression
-- K-Nearest Neighbors (KNN)
 
-**Result:**
+**Dataset:**
+Titanic Passenger Dataset
+
+**Model Accuracy:** 80.45%
+
+**Project Folder:**
+`Titanic_Survival_Prediction`
+
+---
+
+### Task 3 - Iris Flower Classification
+
+A machine learning classification project that identifies the species of an Iris flower based on its measurements.
+
+**Technologies Used:**
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Logistic Regression
+- K-Nearest Neighbors
+
+**Dataset:**
+Iris Flower Dataset
+
+**Model Results:**
 - Logistic Regression Accuracy: 96.67%
 - KNN Accuracy: 100%
 
+**Project Folder:**
+`Iris_Flower_Classification`
+
 ---
 
-### 2. Car Price Prediction
+### Task 4 - Sales Prediction Using Python
 
-A machine learning regression project that predicts the selling price of used cars based on features such as year, present price, kilometers driven, fuel type, seller type, transmission, and ownership.
+A machine learning project that predicts product sales based on advertising expenditure.
 
-**Technologies:**
+**Technologies Used:**
 - Python
 - Pandas
-- Scikit-learn
 - Matplotlib
 - Seaborn
-
-**Model Used:**
+- Scikit-learn
 - Linear Regression
 
-**Result:**
-- MAE: 1.22
-- RMSE: 1.87
-- R² Score: 0.85
+**Dataset:**
+Advertising Dataset
 
----
+**Features:**
+- TV Advertising
+- Radio Advertising
+- Newspaper Advertising
 
-### 3. Unemployment Analysis
+**Target:**
+Sales
 
-A data analysis project exploring unemployment trends in India, including regional differences, time-based trends, COVID-19 impact, and rural vs urban unemployment.
+**Model R² Score:** 0.90
 
-**Technologies:**
-- Python
-- Pandas
-- Matplotlib
-- Seaborn
-
-**Analysis Performed:**
-- Regional unemployment analysis
-- Unemployment trend analysis
-- COVID-19 impact analysis
-- Rural vs Urban comparison
+**Project Folder:**
+`Sales_Prediction`
 
 ---
 
 ## Repository Structure
 
 ```text
-COD-SOFT-INTERNSHIP
+CODSOFT Data Science Internship
+│
+├── Titanic_Survival_Prediction
+│   ├── train.csv
+│   ├── titanic_survival_prediction.py
+│   ├── confusion_matrix.png
+│   └── survival_distribution.png
 │
 ├── Iris_Flower_Classification
-├── Car_Price_Prediction
-├── Unemployment_Analysis
+│   ├── iris_classification.py
+│   ├── iris_pairplot.png
+│   ├── iris_boxplot.png
+│   ├── knn_confusion_matrix.png
+│   └── logistic_confusion_matrix.png
+│
+├── Sales_Prediction
+│   ├── Advertising.csv
+│   ├── sales_prediction.py
+│   ├── correlation_heatmap.png
+│   ├── actual_vs_predicted.png
+│   └── tv_vs_sales.png
+│
 └── README.md
